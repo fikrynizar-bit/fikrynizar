@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Fikry Nizar</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5; /* Warna abu-abu muda */
+            text-align: center; /* Biar semua di tengah */
+            padding-top: 50px;
+        }
+        .kartu-profil {
+            background-color: white;
+            width: 300px;
+            margin: 0 auto; /* Trik biar kotak ada di tengah */
+            padding: 20px;
+            border-radius: 10px; /* Sudut melengkung */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* Bikin foto jadi bulat */
+            object-fit: cover;
+            border: 3px solid #007bff; /* Bingkai biru */
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+        }
+        p {
+            color: #666;
+        }
+        .tombol {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kartu-profil">
+        <img src="foto-profil.png" alt="Foto Fikry"> 
+        
+        <h1>Fikry Nizar</h1>
+        <p>Mahasiswa IT | Blogger | Content Creator</p>
+        <hr>
+        <p>Halo! Saya suka belajar teknologi, coding, dan menulis artikel tentang pengembangan diri.</p>
+        
+        <a href="https://fikryrocks.blogspot.com" class="tombol" target="_blank">Kunjungi Blog Saya</a>
+    </div>
+
+</body>
+</html>
+<div style="margin-top: 20px; font-size: 14px;">
+            <a href="https://github.com/fikrynizar" target="_blank" style="color: #333; text-decoration: none; font-weight: bold;">GitHub</a>
+            <span style="margin: 0 5px; color: #ccc;">|</span>
+            <a href="https://www.linkedin.com/in/fikrynizar" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: bold;">LinkedIn</a>
+        </div>
